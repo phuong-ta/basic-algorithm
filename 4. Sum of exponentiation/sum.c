@@ -27,7 +27,7 @@ int main(void)
     scanf("%d",&base);
     printf("number as exponent\n");
     scanf("%d",&exponent);
-    result = countExponent(base, exponent);
+    //result = countExponent(base, exponent);
     for (int i = 1; i <= exponent ; i++)
     {
         result = countExponent(base, i);
