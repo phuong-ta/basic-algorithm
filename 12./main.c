@@ -8,8 +8,9 @@ int main()
         for (int y = 1; y < 11; y++)
         {
             result=x*y;
-            printf("%d x %d = %d\n", x, y, result);
-        }      
+            printf("%d x %d = %d\t", x, y, result);
+        }  
+        printf("\n");    
     }
     return 0;
 }
