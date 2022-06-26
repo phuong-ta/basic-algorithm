@@ -3,7 +3,7 @@
 int main() {
    int n,i,j;
  
-   n = 4;   // khai bao so hang.
+   n = 5;   // khai bao so hang.
  
    printf("Ve tam giac sao deu:\n");
    for(i = 1; i <= n; i++) {
